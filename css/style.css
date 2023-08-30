@@ -1,0 +1,91 @@
+.container{
+    height: 500px;
+    text-align:start;
+    margin-left: 50px;
+    width: 100%; /* Mengatur lebar container agar sesuai dengan lebar parent element */
+    max-width: 90%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; /* Ruang di sekitar isi menu */
+}
+
+/* Gaya untuk daftar menu */
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+/* Gaya untuk tautan menu */
+.menu li {
+    margin-right: 20px; /* Jarak antar tautan menu */
+}
+
+/* Gaya untuk tautan menu saat dihover */
+.menu li:hover {
+    text-decoration: underline; /* Garis bawah saat dihover */
+}
+
+.facilation{
+    height: 250px;
+}
+
+.message{
+    height: 370px;
+}
+.hasilSubmit{
+    margin-top: 75px;
+}
+.message, .hasilSubmit{
+    float: left;
+    width: 50%;
+}
+
+.main{
+    clear: left;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+.circle-container {
+    display: flex;
+    justify-content: space-around; /* Untuk meratakan lingkaran dan paragraf */
+}
+
+.circle-with-description {
+    text-align: center;
+}
+.circle {
+    width: 150px;
+    height: 150px;
+    background-color: #ccc; /* Atur warna lingkaran */
+    border-radius: 50%; /* Membuatnya menjadi lingkaran */
+    margin-bottom: 10px; /* Spasi antara lingkaran dan paragraf */
+}
+.description {
+    margin: 0; /* Hapus margin bawaan untuk paragraf */
+}
+.description-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline-end: 45px;
+}
+
+.container img{
+    width: 100%; /* Mengatur lebar gambar agar sesuai dengan lebar container */
+    object-fit: contain;
+}
+.overlay {
+    position: absolute;
+    top: 50%; /* Menempatkan overlay di tengah vertikal */
+    left: 23%; /* Menempatkan overlay di tengah horizontal */
+    transform: translate(-50%, -50%); /* Membuat overlay menjadi tepat di tengah */
+    background-color: rgba(0, 0, 0, 0.5); /* Memberikan latar belakang transparan */
+    color: white; /* Warna teks putih agar kontras dengan latar belakang */
+    padding: 20px; /* Spasi teks di dalam overlay */
+}

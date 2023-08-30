@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <hr color="gray">
+    <header>
+        <section>
+            <nav class="navbar">
+                <!-- Logo di sebelah kiri -->
+                <div class="logo">
+                    <img src="logoo.png" alt="logo">
+                </div>
+                
+                <!-- Tautan menu di pojok kanan -->
+                <ul class="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="profile.html">Our Profile</a></li>
+                    <li><a href="#">Achievement</a></li>
+                    <li><a href="#messageUs">Message Us</a></li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+
+    <hr color="gray">
+
+    <main>
+        <div class="container">
+            <img src="lovepik-city-panorama-picture_500719624.jpg" alt="danau">
+            <div class="overlay">
+                <h2>Hai, <span id="user"></span> Welcome To Website</h2>
+                <p>Hallo, saya mahasiswa di <br>Universitas Muhammadiyah Tangerang.
+                    
+                    Saya mengikuti <br>fundamental ini untuk belajar software enginering.<br>
+                    
+                    Saya tertarik dengan dunia programming, <br>karena sekarang semua serba digital
+                    <br>
+                    <br> visi: menjadi programmer yang hebat <br> misi: belajar semua hal tentang teknologi
+                </p>
+            </div>
+        </div>
+
+        <hr color="gray">
+
+        <div class="facilation">
+            <h2>Our Facilation</h2>
+            <div class="circle-container">
+                <!-- Lingkaran pertama -->
+                <div class="circle-with-description">
+                    <div class="circle"></div>
+                    <p>Professional Teacher</p>
+                </div>
+        
+                <!-- Lingkaran kedua -->
+                <div class="circle-with-description">
+                    <div class="circle"></div>
+                    <p>Sport Field</p>
+                </div>
+        
+                <!-- Lingkaran ketiga -->
+                <div class="circle-with-description">
+                    <div class="circle"></div>
+                    <p>Classroom</p>
+                </div>
+            </div>
+            
+        </div>
+
+        <hr color="gray">
+
+        <div class="main">
+            <div class="message">
+                <h2 id="messageUs">Message Us</h2>
+                <form name="form-message">
+                    <label for="nama">Nama:</label>
+                    <input type="text" id="name-input" name="name-input" style="width: 385px;" required>
+                    <br><br>
+    
+                    <label for="tgl_lahir">Tanggal Lahir:</label>
+                    <input type="date" id="tgl_lahir" name="tgl_lahir"  style="width: 335px;" required>
+                    <br><br>
+    
+                    <label>Jenis Kelamin:</label>
+                    <input type="radio" id="laki" name="jenis_kelamin" value="Laki-laki" required>
+                    <label for="laki">Laki-laki</label>
+                    <input type="radio" id="perempuan" name="jenis_kelamin" value="Perempuan" required>
+                    <label for="perempuan">Perempuan</label>
+                    <br><br>
+    
+                    <label for="pesan">Pesan:</label>
+                    <textarea id="pesan" name="pesan" rows="6" cols="50" required></textarea>
+                    <br><br>
+
+                    <button type="button" id="buttonValidate" style="width:435px">Submit</button>
+                </form>
+            </div>
+            
+            <div class="hasilSubmit">
+                <fieldset style="width: 500px;">
+                    <p id="waktuSekarang">Current Time :</p>
+                    <p id="hasilNama">Nama : </p>
+                    <p id="hasilTlahir">Tanggal Lahir : </p>
+                    <p id="hasilJkel">Jenis Kelamin : </p>
+                    <p id="hasilPesan">Pesan : </p>
+                </fieldset>
+            </div>
+        </div>
+        <hr color="gray">
+    </main>
+        
+    <footer>
+        <div class="main">
+            <p>Create by arif</p>
+        </div>
+    </footer>
+    <script src="js/sc.js"></script>
+</body>
+</html>
